@@ -34,3 +34,4 @@ On top of my already mentioned counter-measures, I will be regularly consulting 
    
 Let's make a habit of setting a goal for the next day at the end of these posts. Tomorrow I plan to, at minimum, create a page containing links to these posts.
 
+In other news, Sam Altman is back at OpenAI. Looks like my gravy-train is still on the tracks.
