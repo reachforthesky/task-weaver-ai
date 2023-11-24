@@ -17,12 +17,12 @@ this is what my blog.md file looks like right now. It's even in a [code block!](
     - [My Second Blog Post](./_posts/2023-11-22-my-second-blog-post.md)
     - [Happy Thankgiving!](./_posts/2023-11-23-happy-thanksgiving.md)
 
-Let's [replace that with a loop.](https://chat.openai.com/share/f5722d30-6e72-4a23-ab18-73447c7c07d4)
+Let's [replace that with a loop.](https://chat.openai.com/share/29639709-635a-49de-9402-b831ac0bfd52)
 
-```# Blog
+    # Blog
 
-```{% for post in site.posts %}
-```  - [{{ post.title }}]({{ post.url }})
-```{% endfor %}
+    {% for post in site.posts %}
+      - [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+    {% endfor %}
 
 ChatGPT is extra helpful here because I have no intention of learning Jekyll/Liquid syntax. I'm already starting to rub up against the limitations of Github Pages and could see myself migrating this blog to something a bit more purpose-built.
