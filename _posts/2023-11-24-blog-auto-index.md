@@ -24,3 +24,5 @@ Let's [replace that with a loop.](https://chat.openai.com/share/f5722d30-6e72-4a
 ```{% for post in site.posts %}
 ``````  - [{{ post.title }}]({{ post.url }})
 ```{% endfor %}
+
+ChatGPT is extra helpful here because I have no intention of learning Jekyll/Liquid syntax. I'm already starting to rub up against the limitations of Github Pages and could see myself migrating this blog to something a bit more purpose-built.
