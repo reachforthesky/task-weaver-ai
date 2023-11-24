@@ -25,4 +25,4 @@ Let's [replace that with a loop.](https://chat.openai.com/share/29639709-635a-49
       - [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
     {% endfor %}
 
-ChatGPT is extra helpful here because I have no intention of learning Jekyll/Liquid syntax. I'm already starting to rub up against the limitations of Github Pages and could see myself migrating this blog to something a bit more purpose-built.
+ChatGPT is extra helpful here because I have no intention of learning Jekyll/Liquid syntax. I'm already starting to rub up against the limitations of Github Pages and could see myself migrating this blog to something a bit more purpose-built. That being said, I'm pretty happy with the state of the blog for now, I think I'll leave it alone for awhile. Tomorrow I'll actually get started on the project.
