@@ -1,3 +1,10 @@
+---
+layout: post
+title: "My First Blog Post"
+date: 2023-11-21 12:00:00 -0000
+categories: [blog]
+---
+
 11/21/2023
 
 Lately I have been a bit worried about my job. Since graduating from university in 2015 I have managed to cobble together roughly 2-3 years of what could be called "software development experience" although I'm about as confident in my abilities as a new-born fawn. With the way things are going with AI, I feel as though the looming threat of getting automated out of a job is right on my heels.
