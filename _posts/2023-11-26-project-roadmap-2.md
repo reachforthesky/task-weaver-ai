@@ -8,9 +8,9 @@ categories: [blog]
 
 Yesterday I spent an inordinate amount of time getting ChatGPT to output a rough mockery of information that could have easily been found with a google search. After a good night's sleep I've started to rethink my strategy a bit. This is my current process for using generative AI to map out my plan of attack, that I'm hoping to automate with this project:
 
-    1. Give the AI something like a mission statement or core purpose of a project and ask for steps to complete it.
-    2. Request that it elaborate on individual steps, breaking them down into substeps
-    3. Repeat step 2 until you have a complete task tree with all "leaves" (the substeps at the very end of a branch that are not broken down further) being completeable somewhere between 30 minutes and two hours.
+>1. Give the AI something like a mission statement or core purpose of a project and ask for steps to complete it.
+>2. Request that it elaborate on individual steps, breaking them down into substeps
+>3. Repeat step 2 until you have a complete task tree with all "leaves" (the substeps at the very end of a branch that are not broken down further) being completeable somewhere between 30 minutes and two hours.
 
 For instance, if I wanted to create a task tree from something like "Make Spaghetti" I would want to the final product to look something like this:
 
