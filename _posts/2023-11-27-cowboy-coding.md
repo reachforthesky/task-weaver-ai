@@ -21,6 +21,6 @@ This is the limitation of Cowboy coding that is the most difficult to overcome. 
 
 Ugh, yesterday I said I would come up with a user story but all I've done is write about the struggles of solo-coding. So here's a user story and totally not a parachute to bail myself out of a personal commitment:
 
->"As a user, I would like to input a projects core purpose, and be prompted to input its subtasks"
+>"As a user, I would like to input a project's core purpose, and be prompted to input its subtasks"
 
 There, the absolutely bare minimum amount of work to satisfy the goal I set yesterday. Tomorrow I'll definitely talk about what a user story is and what we do with it.
