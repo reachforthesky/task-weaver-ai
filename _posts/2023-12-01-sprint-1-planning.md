@@ -17,8 +17,8 @@ By delivering working software immediately, users can get their hands on it, tel
 
 Before I start breaking down our story into tasks, I need to decide on the tech stack I'll be using for this project. I'm referring to the set of tools and languages I'll be using to actually build the dang thing. Now I could go with what I use professionally (Angular, .Net and mssql) but I kind of want to learn something new so I'm going to go with the MERN stack, which I'll talk about later...mostly because right now I know nothing about it besides the fact that it's free and widespread. 
 
-Wow, I've been going on and on and I haven't planned a single day of the sprint. I tried to [get help from my AI overlords.](https://reachforthesky.github.io/task-weaver-ai/assets/blog-content/12-01-2023/Sprint-Planning-for-Software.html) but I was pretty unimpressed with the results. I'm pretty tired so I'm just going to set a goal for each of the next seven days and break it down at the beginning of each work session. I'll try to fit the really big tasks in this weekend because I'll probably only have an hour a day during the work week to work on it.
+Wow, I've been going on and on and I haven't planned a single day of the sprint. I tried to [get help from my AI overlords.](https://reachforthesky.github.io/task-weaver-ai/assets/blog-content/12-01-2023/Sprint-Planning-for-Software.html) but I was pretty unimpressed with the results. I'm pretty tired so I'm just going to set a goal for each of the next seven days and break it down at the beginning of each work session. I'll try to fit the really big tasks in this weekend because I'll probably only have an hour a day during the work week to chip away at it.
 
 ![My sprint schedule](https://reachforthesky.github.io/task-weaver-ai/assets/blog-content/12-01-2023/sprint-1-goals.png)
 
-Tomorrow I play with a database
+Tomorrow I play with a database.
