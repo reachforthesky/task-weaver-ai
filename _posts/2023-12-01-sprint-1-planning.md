@@ -19,6 +19,6 @@ Before I start breaking down our story into tasks, I need to decide on the tech 
 
 Wow, I've been going on and on and I haven't planned a single day of the sprint. I tried to [get help from my AI overlords.](https://reachforthesky.github.io/task-weaver-ai/assets/blog-content/12-01-2023/Sprint-Planning-for-Software.html) but I was pretty unimpressed with the results. I'm pretty tired so I'm just going to set a goal for each of the next seven days and break it down at the beginning of each work session. I'll try to fit the really big tasks in this weekend because I'll probably only have an hour a day during the work week to chip away at it.
 
-![My sprint schedule](https://reachforthesky.github.io/task-weaver-ai/assets/blog-content/12-01-2023/sprint-1-goals.png)
+![My sprint schedule](https://reachforthesky.github.io/task-weaver-ai/assets/blog-content/12-01-2023/sprint-1-goals.PNG)
 
 Tomorrow I play with a database.
