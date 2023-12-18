@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const { MongoClient } = require('mongodb');
+const { MongoClient, ObjectId } = require('mongodb');
 
 const app = express();
 const port = 3000;
@@ -11,8 +11,22 @@ app.use(bodyParser.json());
 // MongoDB connection string (replace with your actual connection string)
 const mongoURI = 'mongodb://localhost:27017';
 
+// Basic data validation function
+async function validateData(data, tasks) {
+    var validParent;
+    if(!data.parent){
+        data.parent = null;
+        validParent = true;
+    }
+    else
+        validParent = await tasks.findOne({ _id: new ObjectId(data.parent) });
+    const valid = data && data.name  && data.completed && validParent;
+    return valid;
+}
+
+
 // POST request handler
-app.post('/api/postData', async (req, res) => {
+app.post('/api/tasks/postData', async (req, res) => {
   // Access the posted data from the request body
   const postData = req.body;
 
@@ -22,6 +36,9 @@ app.post('/api/postData', async (req, res) => {
     const db = client.db('local'); // Replace with your actual database name
     const collection = db.collection('tasks'); // Replace with your actual collection name
 
+    
+    if(!(await validateData(postData, collection)))
+      throw new Error("Invalid data");
     // Insert the document into the collection
     const result = await collection.insertOne(postData);
 

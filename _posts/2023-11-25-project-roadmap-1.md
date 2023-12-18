@@ -4,6 +4,7 @@ title: "Project Roadmap Pt. 1"
 date: 2023-11-25 12:00:00 -0000
 categories: [blog]
 ---
+11/26/2023
 
 Well this is embarassing. Five days of talking a big game about improved productivity and effectiveness and we haven't even started the project beyond setting up a Github repo. I won't stand for this waffling any longer, I vow to keep my eyes glued to my laptop until I at least have a plan of action. As a reminder, here's the "elevator pitch" of the project.
 
