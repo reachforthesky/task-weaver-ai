@@ -1,3 +1,4 @@
+const Task = require('../models/Task');
 const TaskRepository = require('../repositories/TaskRepository');
 
 exports.createTask = async (req, res) => {
@@ -9,13 +10,11 @@ exports.createTask = async (req, res) => {
   }
 };
 
-exports.addSubtask = async (req, res) => {
+exports.getTopLevelTasks = async (req, res) => {
   try {
-    const { taskId } = req.params;
-    const subtaskData = req.body;
-    const updatedTask = await TaskRepository.addSubtask(taskId, subtaskData);
-    res.status(200).json(updatedTask);
+    const allTopTasks = await TaskRepository.getTopLevelTasks();
+    res.status(201).json(allTopTasks);
   } catch (error) {
     res.status(500).send(error.message);
   }
-};
+}

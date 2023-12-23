@@ -3,10 +3,17 @@ const mongoose = require('mongoose');
 const TaskSchema = new mongoose.Schema({
   name: {
     type: String,
+    required: true,
+    maxlength: 100
+  },
+  description: {
+    type: String,
+    maxlength: 1000
+  },
+  completed: {
+    type: Boolean,
     required: true
   },
-  description: String,
-  completed: Boolean,
   parentId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Task'

@@ -3,6 +3,7 @@ const router = express.Router();
 const TaskController = require('../controllers/TaskController');
 
 router.post('/tasks', TaskController.createTask);
-router.post('/tasks/:taskId/subtasks', TaskController.addSubtask);
+
+router.get('/tasks/getTopTasks', TaskController.getTopLevelTasks)
 
 module.exports = router;
