@@ -1,15 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
-import NavHeader from './components/NavHeader'
-//import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
-function App() {
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavHeader from './components/NavHeader';
+
+const App: React.FC = () => {
   return (
     <div className="App">
-      <NavHeader/>
+      <NavHeader />
+      {/* Rest of your application components go here */}
     </div>
   );
-}
+};
 
 export default App;
