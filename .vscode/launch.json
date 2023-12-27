@@ -5,11 +5,27 @@
         "type": "node",
         "request": "launch",
         "name": "Debug API",
-        "program": "${workspaceFolder}/app.js",
+        "program": "${workspaceFolder}/server/app.js",
         "runtimeArgs": ["--inspect"],
         "restart": true,
         "console": "integratedTerminal",
         "internalConsoleOptions": "neverOpen"
+      },
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Debug React App",
+        "url": "http://localhost:3000",
+        "webRoot": "${workspaceFolder}/client/src",
+        "sourceMaps": true,
+        "internalConsoleOptions": "neverOpen",
+        "skipFiles": ["node_modules/**"]
+      }
+    ],
+    "compounds": [
+      {
+        "name": "Debug Both",
+        "configurations": ["Debug API", "Debug React App"]
       }
     ]
   }
