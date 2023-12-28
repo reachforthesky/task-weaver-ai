@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const NavHeader: React.FC = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+    <Navbar bg="dark" variant="dark" expand="md" sticky="top">
       <Container>
         <Navbar.Brand>Task Weaver AI</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

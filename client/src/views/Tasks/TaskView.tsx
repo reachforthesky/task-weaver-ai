@@ -1,15 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import { fetchTopLevelTasks } from './TaskService';
+import {useEffect, useState} from 'react';
+import TaskExplorer from './TaskExplorer';
+import { fetchTopLevelTasks } from '../../services/TaskService';
+import { Task } from '../../models/Task';
 
-interface Task {
-  _id: string;
-  name: string;
-  // Add other task properties as needed
-}
 
-const TaskExplorer: React.FC = () => {
+export default function App() {
 
-    const [tasks, setTasks] = useState<Task[]>([]);
+  const [tasks, setTasks] = useState<Task[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>('');
 
@@ -33,12 +30,9 @@ const TaskExplorer: React.FC = () => {
   if (error) return <div>Error: {error}</div>;
 
   return (
-    <div style={{ width: '20%', float: 'left' }}>
-      {tasks.map(task => (
-        <div key={task._id}>{task.name}</div>
-      ))}
+    <div className="App" style={{ height: '100vh' }}>
+      <TaskExplorer taskList = {tasks}/>
+      {/*<TaskForm />*/}
     </div>
   );
 };
-
-export default TaskExplorer;
