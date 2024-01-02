@@ -17,7 +17,7 @@ We're off to a great start.
 
 After the herculean task of getting back to where I was a few days ago I find myself stuck in a real rut, so I decided to just let ChatGPT 4 take the reins for my next task; displaying a clicked task in my TaskDetails component (the white space next to my green TaskExplorer component).
 
-[It does a phenomenal job](https://reachforthesky.github.io/task-weaver-ai/assets/blog-content/01-01-2024/Update-TaskView-for-Clicked-Task.html), as I've come to expect. Here's how we're lookin now.
+[It does a phenomenal job](https://reachforthesky.github.io/task-weaver-ai/assets/blog-content/01-01-2024/Update-TaskView-for-Clicked-Task.html), as I've come to expect. Here's how we're lookin' now.
 
 ![TaskDetails in action](https://reachforthesky.github.io/task-weaver-ai/assets/blog-content/01-01-2024/task-details.png)
 
